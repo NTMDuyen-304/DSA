@@ -1,7 +1,7 @@
 /* 
 STT: 22520350
 Full Name: Nguyen Thi My Duyen
-In Class part 1 - Cau 1 
+In Class part 1 - Cau 3 
 */
 #include <bits/stdc++.h>
 using namespace std;
