@@ -1,5 +1,5 @@
 /* 
-STT: 22520350
+STT:
 Full Name: Nguyen Thi My Duyen
 In Class part 1 - Cau 1 
 */
