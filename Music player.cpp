@@ -1,7 +1,7 @@
 /*
 STT: 22520350
 Full Name: Nguyen Thi My Duyen
-Session 02 - Exercise 01
+Session Homwwork - Exercise 01
 Notes or Remarks: ......
 */
 #include <bits/stdc++.h>
