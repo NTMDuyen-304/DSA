@@ -4,7 +4,7 @@ Full Name: Nguyen Thi My Duyen
 Session 01 - Exercise 07
 Notes or Remarks: ......
 */
-include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 // Function to find the minimum element in the array
