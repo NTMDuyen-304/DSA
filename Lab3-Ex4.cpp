@@ -1,7 +1,7 @@
 /*
 STT: 22520350
 Full Name: Nguyen Thi My Duyen
-Session 01 - Exercise 01
+Session 01 - Exercise 04
 Notes or Remarks: ......
 */
 #include <iostream>
