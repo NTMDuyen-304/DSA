@@ -35,7 +35,7 @@ int binarySearchRight(int a[], int n, int target) {
     return right;
 }
 
-int countOccurrences(int arr[], int n, int target) {
+int countOccurrences(int a[], int n, int target) {
     int leftIndex = binarySearchLeft(a, n, target);
     int rightIndex = binarySearchRight(a, n, target);
 
@@ -46,7 +46,7 @@ int countOccurrences(int arr[], int n, int target) {
 }
 
 int main() {
-    int a[100],n, target;
+    int a[100], n, target;
     cout<<"Nhập số phần tử mảng: ";
     cin>>n;
     cout<<"Nhập mảng: ";
