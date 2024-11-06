@@ -8,11 +8,11 @@ Notes or Remarks: ......
 using namespace std;
 
 // Hàm tìm kiếm nhị phân để tìm chỉ số bên trái của phần tử
-int binarySearchLeft(int arr[], int n, int target) {
+int binarySearchLeft(int a[], int n, int target) {
     int left = 0, right = n - 1;
     while (left <= right) {
         int mid = left + (right - left) / 2;
-        if (arr[mid] < target) {
+        if (a[mid] < target) {
             left = mid + 1;
         } else {
             right = mid - 1;
@@ -22,11 +22,11 @@ int binarySearchLeft(int arr[], int n, int target) {
 }
 
 // Hàm tìm kiếm nhị phân để tìm chỉ số bên phải của phần tử
-int binarySearchRight(int arr[], int n, int target) {
+int binarySearchRight(int a[], int n, int target) {
     int left = 0, right = n - 1;
     while (left <= right) {
         int mid = left + (right - left) / 2;
-        if (arr[mid] <= target) {
+        if (a[mid] <= target) {
             left = mid + 1;
         } else {
             right = mid - 1;
@@ -36,8 +36,8 @@ int binarySearchRight(int arr[], int n, int target) {
 }
 
 int countOccurrences(int arr[], int n, int target) {
-    int leftIndex = binarySearchLeft(arr, n, target);
-    int rightIndex = binarySearchRight(arr, n, target);
+    int leftIndex = binarySearchLeft(a, n, target);
+    int rightIndex = binarySearchRight(a, n, target);
 
     if (leftIndex <= rightIndex) {
         return rightIndex - leftIndex + 1;
