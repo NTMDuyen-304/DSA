@@ -20,7 +20,7 @@ int bidirectionalBinarySearch(int arr[], int size, int target) {
         left++;
         right--;
     }
-    return -1; // Target not found
+    return -1; 
 }
 
 int main() {
